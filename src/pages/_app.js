@@ -2,7 +2,7 @@ import '../styles/globals.css';
 import Header from '@components/Header';
 import AppContext from '@context/AppContext';
 import useInitialState from '@hooks/useInitialState';
-import Script from 'next/Script';
+import Script from 'next/script';
 
 function MyApp({ Component, pageProps }) {
   const initialState = useInitialState();
